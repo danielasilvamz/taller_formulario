@@ -1,0 +1,119 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    background: #f5f5f5;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: space-around; */
+    min-height: 100vh;
+}
+
+.container{
+    display: block;
+    flex: 1;
+}
+.table-container{
+    overflow-y: auto;
+    padding: 20px 50px;
+}
+.form-container{
+    width: 100%;
+    max-width: 650px;
+    margin: 25px auto;
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+    background: #68a4ac;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.input-row{
+    margin-bottom: 10px;
+}
+
+.input-row label{
+    display: block;
+    margin-bottom: 3px;
+}
+
+.input-row input, .input-row textarea{
+    width: 100%;
+    padding: 10px;
+    border: 0;
+    border-radius: 3px;
+    outline: 0;
+    margin-bottom: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    resize: none; /* evitar que el usuario pueda redimensionar el textarea */
+}
+.input-row textarea{
+    height: 100px;
+}
+
+.input-row input[type="submit"], .input-row input[type="reset"]{
+    width: 100px;
+    display:inline-block;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    background: #173d4e;
+}
+
+
+.table-container table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th,
+table td {
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #f2f2f2;
+    color: #468494;
+}
+
+table tr {
+    background-color: #f9f9f9;
+}
+
+/*Inicio pie de pagina*/
+footer {
+    font-size: 12px;
+    text-align: center;
+    background-color: #173d4e; 
+    color: #fff; 
+    padding: 20px; 
+}
+
+.footer-container{
+    margin-top: 5px;
+    list-style: none;
+    padding: 0;
+}
+
+.footer-container li {
+    margin-bottom: 10px; 
+}
+
+ul {
+    list-style: none; 
+}
+
+.footer-container a {
+    text-decoration: none; 
+    color: white; 
+    font-size: medium;
+}
+
+.footer-container a:hover {
+    color: #a4ece4; 
+}
